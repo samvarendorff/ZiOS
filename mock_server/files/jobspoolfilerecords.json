@@ -1,0 +1,16 @@
+                  J E S 2 J O B L O G -- S Y S T E M E I M G  -- N O D E  D C E I M G W V 
+                                                                                                  
+15.49.11 JOB00239 ---- MONDAY,    14 JAN 2013 ----                                                
+15.49.11 JOB00239  IRR010I  USERID IBMUSER  IS ASSIGNED TO THIS JOB.                              
+15.49.11 JOB00239  ICH70001I IBMUSER  LAST ACCESS AT 15:48:25 ON MONDAY, JANUARY 14, 2013         
+15.49.11 JOB00239  $HASP373 INSTALL  STARTED - INIT 2    - CLASS A - SYS EIMG                     
+15.49.11 JOB00239  IEF403I INSTALL - STARTED - TIME=15.49.11                                      
+15.49.16 JOB00239  IEF404I INSTALL - ENDED - TIME=15.49.16                                        
+15.49.16 JOB00239  $HASP395 INSTALL  ENDED                                                        
+------ JES2 JOB STATISTICS ------                                                                 
+  14 JAN 2013 JOB EXECUTION DATE                                                                  
+           71 CARDS READ                                                                          
+          287 SYSOUT PRINT RECORDS                                                                
+            0 SYSOUT PUNCH RECORDS                                                                
+           13 SYSOUT SPOOL KBYTES                                                                 
+         0.08 MINUTES EXECUTION TIME

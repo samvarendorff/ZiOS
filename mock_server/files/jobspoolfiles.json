@@ -1,0 +1,22 @@
+{"spoolfiles": [
+{"jobid":"JOB00023","jobname":"TESTJOB1","subsystem":null,"id":1,
+"stepname":"JESE","procstep":null,"class":"H",
+"ddname":"JESMSGLG","record-count":14,"byte-count":1200,
+"records-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TESTJOB1\/JOB00023\/1/records"},
+{"jobid":"JOB00023","jobname":"TESTJOB1","subsystem":null,"id":2,
+"stepname":"JESE","procstep":null,"class":"H",
+"ddname":"JESJCL","record-count":10,"byte-count":526,
+"records-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TESTJOB1\/JOB00023\/2/records"},
+{"jobid":"JOB00023","jobname":"TESTJOB1","subsystem":null,"id":3,
+"stepname":"JESE","procstep":null,"class":"H",
+"ddname":"JESYSMSG","record-count":14,"byte-count":1255,
+"records-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TESTJOB1\/JOB00023\/3/records"},
+{"jobid":"JOB00023","jobname":"TESTJOB1","subsystem":null,"id":4,
+"stepname":"STEP57","procstep":"COMPILE","class":"H",
+"ddname":"SYSUT1","record-count":6,"byte-count":741,
+"records-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TESTJOB1\/JOB00023\/4/records"},
+{"jobid":"JOB00023","jobname":"TESTJOB1","subsystem":null,"id":5,
+"stepname":"STEP57","procstep":"COMPILE","class":"A",
+"ddname":"SYSPRINT","record-count":3,"byte-count":209,
+"records-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TESTJOB1\/JOB00023\/5/records"}
+]}

@@ -1,0 +1,6 @@
+{"job": [{
+"jobid":"JOB00023","jobname":"TEXTJOBX","subsystem":null,"owner":"IBMUSER",
+"status":"OUTPUT","type":"JOB","class":"A","retcode":"CC 0000",
+"url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TEXTJOBX\/JOB00023",
+"files-url":"https:\/\/host:port\/zosmf\/restjobs\/jobs\/TEXTJOBX\/JOB00023\/files"
+}]}

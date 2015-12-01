@@ -1,0 +1,747 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 578,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "kotPYEqx7kMC",
+   "etag": "fR/utwZEj6Y",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kotPYEqx7kMC",
+   "volumeInfo": {
+    "title": "1984",
+    "authors": [
+     "George Orwell"
+    ],
+    "publisher": "Houghton Mifflin Harcourt",
+    "publishedDate": "1983-10-17",
+    "description": "In 1984, London is a grim city where Big Brother is always watching you and the Thought Police can practically read your mind. Winston is a man in grave danger for the simple reason that his memory still functions. Drawn into a forbidden love affair, Winston finds the courage to join a secret revolutionary organization called The Brotherhood, dedicated to the destruction of the Party. Together with his beloved Julia, he hazards his life in a deadly match against the powers that be.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780547249643"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0547249640"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 648,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2055,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.14.11.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=kotPYEqx7kMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=kotPYEqx7kMC&printsec=frontcover&dq=subject:fiction&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=kotPYEqx7kMC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/1984.html?hl=&id=kotPYEqx7kMC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/1984-sample-epub.acsm?id=kotPYEqx7kMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/1984-sample-pdf.acsm?id=kotPYEqx7kMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=kotPYEqx7kMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "303HyoSp3xQC",
+   "etag": "NlBcz2sjqkc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/303HyoSp3xQC",
+   "volumeInfo": {
+    "title": "Tears of a Hustler Pt 2",
+    "subtitle": "",
+    "authors": [
+     "Silk White"
+    ],
+    "publisher": "Good2go Publishing",
+    "publishedDate": "2010-05-01",
+    "description": "The first letter of the author's first name is a dollar symbol.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780578040110"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0578040115"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 220,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 46,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=303HyoSp3xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=303HyoSp3xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=303HyoSp3xQC&printsec=frontcover&dq=subject:fiction&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=303HyoSp3xQC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Tears_of_a_Hustler_Pt_2.html?hl=&id=303HyoSp3xQC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 7.08,
+     "currencyCode": "AUD"
+    },
+    "retailPrice": {
+     "amount": 4.59,
+     "currencyCode": "AUD"
+    },
+    "buyLink": "http://books.google.com.au/books?id=303HyoSp3xQC&dq=subject:fiction&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 7080000.0,
+       "currencyCode": "AUD"
+      },
+      "retailPrice": {
+       "amountInMicros": 4590000.0,
+       "currencyCode": "AUD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Tears_of_a_Hustler_Pt_2-sample-epub.acsm?id=303HyoSp3xQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Tears_of_a_Hustler_Pt_2-sample-pdf.acsm?id=303HyoSp3xQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=303HyoSp3xQC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "7q2aFL60260C",
+   "etag": "yrM0dhAxE6Q",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/7q2aFL60260C",
+   "volumeInfo": {
+    "title": "Cinderella Man",
+    "authors": [
+     "Marc Cerasini"
+    ],
+    "publisher": "Harper Collins",
+    "publishedDate": "2009-10-06",
+    "description": "Set in New York in the Depression, this is the story of Jim Braddock, who takes up boxing to make money to feed his family, and eventually goes up against champ Max Baer, notorious for having killed two men in the ring. James J. Braddock, born in New York City, was known locally for his thunderous right hand and successful amateur boxing career. After turning professional, he defeated foe after foe, and his rapid rise from obscurity earnt him the nickname, the Cinderella Man. He was given a shot at the world light heavyweight title against champion Tommy Loughran in 1929, but lost in a 15–round decision. Following that defeat and the stock market crash of 1929, Jim Braddock struggled to win fights and provide for his young family. Eventually Jim's luck turned. In 1934 he had upset wins against Corn Griffin and John Henry Lewis. With these two wins, Braddock set himself up for another shot at the world title – against heavyweight champion, Max Baer. On 13 June 1935, as a 10 to 1 underdog, Jim took the world title from Max Baer in what was described as, 'the greatest fistic upset since the defeat of John L. Sullivan by Jim Corbett'. Braddock would lose his heavyweight title two years later in an eight–round KO to 'The Brown Bomber', Joe Louis. Jim was inducted into the Ring Boxing Hall of Fame in 1964, the Hudson County Hall of Fame in 1991 and the International Boxing Hall of Fame in 2001.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780061976841"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0061976849"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 288,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 33,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=7q2aFL60260C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=7q2aFL60260C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=7q2aFL60260C&printsec=frontcover&dq=subject:fiction&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=7q2aFL60260C&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Cinderella_Man.html?hl=&id=7q2aFL60260C"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "AUD"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "AUD"
+    },
+    "buyLink": "http://books.google.com.au/books?id=7q2aFL60260C&dq=subject:fiction&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "AUD"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "AUD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Cinderella_Man-sample-epub.acsm?id=7q2aFL60260C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=7q2aFL60260C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "6FonetSiO_oC",
+   "etag": "HjAYjUpvVHg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/6FonetSiO_oC",
+   "volumeInfo": {
+    "title": "To Have and Have not",
+    "authors": [
+     "Ernest Hemingway"
+    ],
+    "publisher": "Simon and Schuster",
+    "publishedDate": "2002-07-25",
+    "description": "To Have and Have not is the dramatic, brutal story of Harry Morgan, an honest boat owner who is forced into running contraband between Cuba and Key West as a means of keeping his crumbling family financially afloat. His adventures lead him into the world of the wealthy and dissipated yachtsmen who swarm the region, and involve him in a strange and unlikely love affair. In this harshly realistic, yet oddly tender and wise novel, Hemingway perceptively delineates the personal struggles of both the \"haves\" and the \"have nots\" and creates one of the most subtle and moving portraits of a love affair in his oeuvre. In turn funny and tragic, lively and poetic, remarkable in its emotional impact, To Have and Have Not takes literary high adventure to a new level. As the Times Literary Supplement observed, \"Hemingway's gift for dialogue, for effective understatement, and for communicating such emotions the tough allow themselves, has never been more conspicuous.\"",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "074323734X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780743237345"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 175,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 22,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.6.5.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=6FonetSiO_oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=6FonetSiO_oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=6FonetSiO_oC&printsec=frontcover&dq=subject:fiction&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=6FonetSiO_oC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/To_Have_and_Have_Not.html?hl=&id=6FonetSiO_oC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/To_Have_and_Have_Not-sample-epub.acsm?id=6FonetSiO_oC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=6FonetSiO_oC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "mKBOehKRx1kC",
+   "etag": "Ew+W4iqEDSQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mKBOehKRx1kC",
+   "volumeInfo": {
+    "title": "If on a winter's night a traveler",
+    "authors": [
+     "Italo Calvino"
+    ],
+    "publisher": "Houghton Mifflin Harcourt",
+    "publishedDate": "2012-10-25",
+    "description": "Italo Calvino imagines a novel capable of endless mutations in this intricately crafted story about writing and readers. If on a Winter's Night a Traveler turns out to be not one novel but ten, each with a different plot, style, ambience, and author, and each interrupted at a moment of suspense. Together they form a labyrinth of literatures, known and unknown, alive and extinct, through which two readers, a male and a female, pursue both the story lines that intrigue them and one another.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780544133402"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0544133404"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 276,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 53,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "2.12.9.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=mKBOehKRx1kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=mKBOehKRx1kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=mKBOehKRx1kC&printsec=frontcover&dq=subject:fiction&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=mKBOehKRx1kC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/If_on_a_winter_s_night_a_traveler.html?hl=&id=mKBOehKRx1kC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/If_on_a_winter_s_night_a_traveler-sample-epub.acsm?id=mKBOehKRx1kC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/If_on_a_winter_s_night_a_traveler-sample-pdf.acsm?id=mKBOehKRx1kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=mKBOehKRx1kC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "jfXz2UHueI0C",
+   "etag": "nkR3QJfgUzk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/jfXz2UHueI0C",
+   "volumeInfo": {
+    "title": "The Fictive and the Imaginary",
+    "subtitle": "Charting Literary Anthropology",
+    "authors": [
+     "Wolfgang Iser"
+    ],
+    "publisher": "JHU Press",
+    "publishedDate": "1993-03-01",
+    "description": "The pioneer of \"literary anthropology,\" Wolfgang Iser presents a wide-ranging and comprehensive exploration of this new field in an attempt to explain the human need for the \"particular form of make-believe\" known as literature. Ranging from the Renaissance pastoral to Coleridge to Sartre and Beckett, The Fictive and the Imaginary is a distinguished work of scholarship from one of Europe's most respected and influential critics.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0801844991"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780801844997"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 347,
+    "printType": "BOOK",
+    "categories": [
+     "Literary Criticism"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=jfXz2UHueI0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=jfXz2UHueI0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=jfXz2UHueI0C&printsec=frontcover&dq=subject:fiction&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=jfXz2UHueI0C&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/The_Fictive_and_the_Imaginary.html?hl=&id=jfXz2UHueI0C"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=jfXz2UHueI0C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "dH6j65bwyLMC",
+   "etag": "Qd4bVTC2768",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dH6j65bwyLMC",
+   "volumeInfo": {
+    "title": "Wild East",
+    "subtitle": "Stories from the Last Frontier",
+    "authors": [
+     "Boris Fishman"
+    ],
+    "publisher": "Justin, Charles & Co.",
+    "publishedDate": "2003",
+    "description": "This book is a lusty and raucous anthology of stories about bohemians, danger junkies, and thrillseekers reveling in the cultural, social, political and sexual renaissance that followed the fall of the iron curtain.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781932112153"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1932112154"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 266,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 16,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=dH6j65bwyLMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=dH6j65bwyLMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=dH6j65bwyLMC&printsec=frontcover&dq=subject:fiction&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=dH6j65bwyLMC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Wild_East.html?hl=&id=dH6j65bwyLMC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Wild_East-sample-epub.acsm?id=dH6j65bwyLMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=dH6j65bwyLMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Nj1E9OsPR4QC",
+   "etag": "a3ZG8snNscY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Nj1E9OsPR4QC",
+   "volumeInfo": {
+    "title": "Eye Killers",
+    "subtitle": "A Novel",
+    "authors": [
+     "Aaron Albert Carr"
+    ],
+    "publisher": "University of Oklahoma Press",
+    "publishedDate": "1995",
+    "description": "When Falke, a thousand-year-old vampire, selects Albuquerque teenager Melissa Roanhorse as his next bride, her grandfather, Michael Roanhorse, an elderly sheepherder, must draw on the power of Navajo myth to outwit the vampire and his coven",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0806127074"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780806127071"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 344,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 8,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=Nj1E9OsPR4QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=Nj1E9OsPR4QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=Nj1E9OsPR4QC&printsec=frontcover&dq=subject:fiction&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=Nj1E9OsPR4QC&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Eye_Killers.html?hl=&id=Nj1E9OsPR4QC"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=Nj1E9OsPR4QC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kDZSh9rtva4C",
+   "etag": "v0b7UkIBVw0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kDZSh9rtva4C",
+   "volumeInfo": {
+    "title": "Bag Of Bones",
+    "subtitle": "A Novel",
+    "authors": [
+     "Stephen King"
+    ],
+    "publisher": "Simon and Schuster",
+    "publishedDate": "1999-04-06",
+    "description": "From international bestseller Stephen King, a tale of grief, of love’s enduring bonds, and the haunting secrets of the past—the inspiration for the A&E miniseries. Stephen King’s most gripping and unforgettable novel, Bag of Bones, is a story of grief and a lost love’s enduring bonds, of a new love haunted by the secrets of the past, of an innocent child caught in a terrible crossfire. Set in the Maine territory King has made mythic, Bag of Bones recounts the plight of forty-year-old bestselling novelist Mike Noonan, who is unable to stop grieving even four years after the sudden death of his wife, Jo, and who can no longer bear to face the blank screen of his word processor. Now his nights are plagued by vivid nightmares of the house by the lake. Despite these dreams, or perhaps because of them, Mike finally returns to Sara Laughs, the Noonans’ isolated summer home. He finds his beloved Yankee town familiar on its surface, but much changed underneath—held in the grip of a powerful millionaire, Max Devore, who twists the very fabric of the community to his purpose: to take his three-year-old granddaughter away from her widowed young mother. As Mike is drawn into their struggle as he falls in love with both of them, he is also drawn into the mystery of Sara Laughs, now the site of ghostly visitations, ever-escalating nightmares, and the sudden recovery of his writing ability. What are the forces that have been unleashed here—and what do they want of Mike Noonan? As vivid and enthralling as King’s most enduring works, Bag of Bones resonates with what Amy Tan calls “the witty and obsessive voice of King’s powerful imagination.” It’s no secret that King is our most mesmerizing storyteller. In Bag of Bones—described by Gloria Naylor as “a love story about the dark places within us all”—he proves to be one of our most moving.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780684835419"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "068483541X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 544,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 46,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.6.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=kDZSh9rtva4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=kDZSh9rtva4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=kDZSh9rtva4C&printsec=frontcover&dq=subject:fiction&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=kDZSh9rtva4C&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Bag_Of_Bones.html?hl=&id=kDZSh9rtva4C"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Bag_Of_Bones-sample-epub.acsm?id=kDZSh9rtva4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=kDZSh9rtva4C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "mgYMXSyn5p0C",
+   "etag": "eB82AvZZe5s",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mgYMXSyn5p0C",
+   "volumeInfo": {
+    "title": "Strategy",
+    "subtitle": "The Logic of War and Peace",
+    "authors": [
+     "Edward Luttwak"
+    ],
+    "publisher": "Harvard University Press",
+    "publishedDate": "2001",
+    "description": "In this widely acclaimed work, now revised and expanded, Luttwak unveils the peculiar logic of strategy level by level, from grand strategy down to combat tactics. He explores examples from ancient Rome to present day to reveal the ultimate logic of military failure and success, of war and peace. 5 tables.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0674007034"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780674007031"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 308,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com.au/books/content?id=mgYMXSyn5p0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com.au/books/content?id=mgYMXSyn5p0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com.au/books?id=mgYMXSyn5p0C&printsec=frontcover&dq=subject:fiction&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com.au/books?id=mgYMXSyn5p0C&dq=subject:fiction&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com.au/books/about/Strategy.html?hl=&id=mgYMXSyn5p0C"
+   },
+   "saleInfo": {
+    "country": "AU",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "AU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com.au/books/download/Strategy-sample-epub.acsm?id=mgYMXSyn5p0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com.au/books/reader?id=mgYMXSyn5p0C&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  }
+ ]
+}
