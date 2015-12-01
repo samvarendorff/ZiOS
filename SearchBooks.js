@@ -15,15 +15,16 @@ var {
  
 var styles = StyleSheet.create({
     container: {
+        flex: 1,
         marginTop: 65,
         padding: 10
     },
     searchInput: {
         height: 36,
-        marginTop: 10,
-        marginBottom: 10,
+        marginTop: 5,
+        marginBottom: 5,
         backgroundColor: '#E6E6E6',
-        fontSize: 18,
+        fontSize: 15,
         flex: 1,
         borderRadius: 0,
         padding: 5
@@ -47,7 +48,7 @@ var styles = StyleSheet.create({
     },
     fieldLabel: {
         fontSize: 15,
-        marginTop: 15
+        marginTop: 10
     },
     errorMessage: {
         fontSize: 15,
