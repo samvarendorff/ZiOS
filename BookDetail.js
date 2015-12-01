@@ -1,14 +1,12 @@
 'use strict';
  
 var React = require('react-native');
-var BookList = require('./BookList');
  
 var {
     StyleSheet,
     Text,
     View,
-    Component,
-    Image
+    Component
    } = React;
  
 var styles = StyleSheet.create({
@@ -20,11 +18,6 @@ var styles = StyleSheet.create({
         paddingRight: 20,
         paddingTop: 10,
         paddingBottom: 10
-    },
-    image: {
-        width: 107,
-        height: 165,
-        padding: 10
     },
     title: {
         fontSize: 20,

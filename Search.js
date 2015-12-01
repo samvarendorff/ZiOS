@@ -2,8 +2,6 @@
  
 var React = require('react-native');
 var SearchBooks = require('./SearchBooks');
-var List = require('./BookList');
-
  
 var {
     StyleSheet,

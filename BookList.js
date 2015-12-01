@@ -11,7 +11,8 @@ var {
     Component,
     ListView,
     TouchableHighlight,
-    ActivityIndicatorIOS
+    ActivityIndicatorIOS,
+    NavigatorIOS
    } = React;
  
 var styles = StyleSheet.create({
@@ -58,11 +59,7 @@ var REQUEST_URL = 'http://localhost:3000/zosmf/restjobs/jobs';
  
 class BookList extends Component {
 
-    componentDidMount() {
-       this.fetchData();
-   }
-
-   constructor(props) {
+    constructor(props) {
        super(props);
        this.state = {
            isLoading: true,
@@ -70,6 +67,10 @@ class BookList extends Component {
                rowHasChanged: (row1, row2) => row1 !== row2
            })
        };
+   }
+
+    componentDidMount() {
+       this.fetchData();
    }
  
    fetchData() {
@@ -84,11 +85,6 @@ class BookList extends Component {
        .done();
     }
 
-    componentDidMount() {
-       this.fetchData();
-    }
-
-
     render() {
        if (this.state.isLoading) {
            return this.renderLoadingView();
@@ -99,18 +95,6 @@ class BookList extends Component {
                 dataSource={this.state.dataSource}
                 renderRow={this.renderBook.bind(this)}
                 style={styles.listView}/>
-        );
-    }
-
-    renderLoadingView() {
-    return (
-        <View style={styles.loading}>
-            <ActivityIndicatorIOS
-                size='large'/>
-            <Text>
-                Loading books...
-            </Text>
-        </View>
         );
     }
 
@@ -134,13 +118,25 @@ class BookList extends Component {
        );
    }
 
+   renderLoadingView() {
+    return (
+        <View style={styles.loading}>
+            <ActivityIndicatorIOS
+                size='large'/>
+            <Text>
+                Loading books...
+            </Text>
+        </View>
+        );
+    }
+
    showBookDetail(job) {
        this.props.navigator.push({
-           title: job.jodid,
+           title: job.jobid,
            component: BookDetail,
            passProps: {job}
        });
-   } 
+   }
 
 }
 
