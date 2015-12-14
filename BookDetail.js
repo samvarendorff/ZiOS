@@ -20,8 +20,8 @@ var styles = StyleSheet.create({
         paddingBottom: 10
     },
     title: {
-        fontSize: 20,
-        fontWeight: "600",
+        fontSize: 15,
+        fontWeight: "500",
         color: '#000000'
     },
     description: {

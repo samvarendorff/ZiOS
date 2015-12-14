@@ -2,12 +2,15 @@
  
 var React = require('react-native');
 var BookDetail = require('./BookDetail');
+var SearchBar = require('react-native-search-bar');
  
 var {
     Image,
     StyleSheet,
     Text,
     View,
+    NativeModules,
+    Platform,
     Component,
     ListView,
     TouchableHighlight,
@@ -25,18 +28,21 @@ var styles = StyleSheet.create({
         padding: 10
     },
     thumbnail: {
-        width: 53,
-        height: 81,
+        width: 35,
+        height: 35,
         marginRight: 10
     },
     rightContainer: {
-        flex: 1
+        flex: 1,
+        paddingLeft: 10
     },
     title: {
-        fontSize: 20,
+        fontSize: 15,
+        fontWeight: "500",
         marginBottom: 8
     },
     author: {
+        fontSize: 15,
         color: '#656565'
     },
     separator: {
@@ -44,6 +50,12 @@ var styles = StyleSheet.create({
        backgroundColor: '#dddddd'
    },
    listView: {
+      flex: 1,
+      marginBottom: 48,
+      backgroundColor: '#F5FCFF'
+   },
+   searchBar: {
+        flex: 1,
         paddingTop: 64,
         backgroundColor: '#F5FCFF'
    },
@@ -54,7 +66,6 @@ var styles = StyleSheet.create({
    }
 });
 
-// var REQUEST_URL = 'http://localhost:3000/v1/books/fictionbooks';
 var REQUEST_URL = 'http://localhost:3000/zosmf/restjobs/jobs';
  
 class BookList extends Component {
@@ -63,6 +74,7 @@ class BookList extends Component {
        super(props);
        this.state = {
            isLoading: true,
+           data: [],
            dataSource: new ListView.DataSource({
                rowHasChanged: (row1, row2) => row1 !== row2
            })
@@ -79,6 +91,7 @@ class BookList extends Component {
        .then((responseData) => {
            this.setState({
                dataSource: this.state.dataSource.cloneWithRows(responseData.jobs),
+               data: responseData.jobs,
                isLoading: false
            });
        })
@@ -90,22 +103,41 @@ class BookList extends Component {
            return this.renderLoadingView();
        }
  
-       return (
-            <ListView
-                dataSource={this.state.dataSource}
-                renderRow={this.renderBook.bind(this)}
-                style={styles.listView}/>
-        );
+      return (
+        <View style={styles.searchBar}>
+          <SearchBar
+            onChangeText={this._filterJobs.bind(this)}             
+            value={this.state.text}
+            placeholder='Filter by JOBNAME'/>
+          <ListView style={styles.listView}
+            dataSource={this.state.dataSource}
+            renderRow={this.renderBook.bind(this)}/>
+        </View>
+      );
     }
 
     renderBook(job) {
-       return (
+
+      if (job.status == "OUTPUT") {
+        var jobImage = "output_icon"
+      }
+      else if (job.status == "STARTED")  {
+        var jobImage = "started_icon"
+      }
+      else if (job.status == "WAITING")  {
+        var jobImage = "waiting_icon"
+      }
+      else {
+        var jobImage = "unknown_icon"
+      }
+
+      return (
             <TouchableHighlight onPress={() => this.showBookDetail(job)}  underlayColor='#dddddd'>
                 <View>
                     <View style={styles.container}>
-                        <Image
-                            icon={{uri: 'featured_pressed'}}
-                            style={styles.thumbnail} />
+                      <Image
+                          source={{uri: jobImage, scale: 1}}
+                          style={styles.thumbnail} />
                         <View style={styles.rightContainer}>
                             <Text style={styles.title}>{job.jobid} - {job.jobname}</Text>
                             <Text style={styles.author}>Owner: {job.owner}</Text>
@@ -137,6 +169,19 @@ class BookList extends Component {
            passProps: {job}
        });
    }
+
+   _filterJobs(text) {
+
+    var filteredJobs = this.state.data.filter(
+      function (value) {
+        return (value.jobname.toLowerCase().indexOf(text.toLowerCase()) > -1);
+      });
+    
+    this.setState ({
+      dataSource: this.state.dataSource.cloneWithRows(filteredJobs)
+    });
+
+  }
 
 }
 
