@@ -1,0 +1,30 @@
+'use strict';
+ 
+var React = require('react-native');
+var Homepage = require('./Homepage')
+ 
+var {
+    StyleSheet,
+    NavigatorIOS,
+    Component,
+    View,
+    Image
+   } = React;
+ 
+var styles = StyleSheet.create({
+    container: {
+        flex: 1
+    }
+});
+ 
+class Homepage extends Component {
+    render() {
+        return (
+            <View style={styles.container}>
+            <Image source={require('image!egg')}}>
+            </View>
+        );
+    }
+}
+ 
+module.exports = Homepage;

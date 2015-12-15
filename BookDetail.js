@@ -11,21 +11,26 @@ var {
  
 var styles = StyleSheet.create({
     container: {
-        paddingTop: 74
+        paddingTop: 74,
+        alignItems: 'center'
     },
     item: {
+        alignItems: 'center',
         paddingLeft: 20,
         paddingRight: 20,
         paddingTop: 10,
         paddingBottom: 10
     },
     title: {
-        fontSize: 15,
-        fontWeight: "500",
+        fontFamily: 'Helvetica Neue',
+        fontSize: 20,
+        fontWeight: "400",
         color: '#000000'
     },
     description: {
-        fontSize: 15,
+        fontFamily: 'Helvetica Neue',
+        fontWeight: "200",
+        fontSize: 20,
         color: '#656565'
     }
 });

@@ -1,8 +1,7 @@
 'use strict';
  
 var React = require('react-native');
-var BookList = require('./BookList');
-
+var SearchBooks = require('./SearchBooks');
  
 var {
     StyleSheet,
@@ -12,24 +11,21 @@ var {
  
 var styles = StyleSheet.create({
     container: {
-        flex: 1,
-        fontFamily: 'Helvetica Neue',
-        fontSize: 20,
-        fontWeight: "200"
+        flex: 1
     }
 });
  
-class Featured extends Component {
+class Settings extends Component {
     render() {
         return (
             <NavigatorIOS
                 style={styles.container}
                 initialRoute={{
-                    title: 'Jobs List',
-                    component: BookList
-            }}/>            
+            title: 'View File Contents',
+            component: SearchBooks
+        }}/>            
         );
     }
 }
  
-module.exports = Featured;
+module.exports = Settings;

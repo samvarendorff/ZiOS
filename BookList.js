@@ -37,12 +37,15 @@ var styles = StyleSheet.create({
         paddingLeft: 10
     },
     title: {
-        fontSize: 15,
-        fontWeight: "500",
+        fontFamily: 'Helvetica Neue',
+        fontSize: 16,
+        fontWeight: "400",
         marginBottom: 8
     },
     author: {
-        fontSize: 15,
+        fontFamily: 'Helvetica Neue',
+        fontWeight: "200",
+        fontSize: 16,
         color: '#656565'
     },
     separator: {
@@ -140,7 +143,7 @@ class BookList extends Component {
                           style={styles.thumbnail} />
                         <View style={styles.rightContainer}>
                             <Text style={styles.title}>{job.jobid} - {job.jobname}</Text>
-                            <Text style={styles.author}>Owner: {job.owner}</Text>
+                            <Text style={styles.author}>Owner - {job.owner}</Text>
                         </View>
                     </View>
                     <View style={styles.separator} />
