@@ -6,13 +6,17 @@ var {
     StyleSheet,
     Text,
     View,
-    Component
+    Component,
+    TouchableHighlight,
+    ActivityIndicatorIOS,
    } = React;
  
 var styles = StyleSheet.create({
     container: {
+        flex: 1,
         paddingTop: 74,
-        alignItems: 'center'
+        alignItems: 'center',
+        paddingBottom: 60 
     },
     item: {
         alignItems: 'center',
@@ -23,16 +27,32 @@ var styles = StyleSheet.create({
     },
     title: {
         fontFamily: 'Helvetica Neue',
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: "400",
         color: '#000000'
     },
     description: {
         fontFamily: 'Helvetica Neue',
         fontWeight: "200",
-        fontSize: 20,
+        fontSize: 18,
         color: '#656565'
-    }
+    },
+    button: {
+        height: 40,
+        backgroundColor: '#045FB4',
+        borderRadius: 2,
+        justifyContent: 'center',
+        marginTop: 20
+    },
+    buttonText: {
+        fontFamily: 'Helvetica Neue',
+        fontSize: 18,
+        fontWeight: "400",
+        color: 'white',
+        alignSelf: 'center',
+        marginLeft: 50,
+        marginRight: 50
+    },
 });
  
 class BookDetail extends Component {
@@ -79,6 +99,56 @@ class BookDetail extends Component {
             </View>
         );
     }
+
+    showFiles() {
+        this.fetchData();
+    }
+
+    fetchData() {
+ 
+        this.setState({ isLoading: true });
+ 
+        var baseURL = 'https://www.googleapis.com/books/v1/volumes?q=';
+        if (this.state.bookAuthor !== '') {
+            baseURL += encodeURIComponent('inauthor:' + this.state.bookAuthor);
+        }
+        if (this.state.bookAuthor !== '') {
+            baseURL += encodeURIComponent('inauthor:' + this.state.bookAuthor);
+        }
+        if (this.state.bookAuthor !== '') {
+            baseURL += encodeURIComponent('inauthor:' + this.state.bookAuthor);
+        }
+        if (this.state.bookAuthor !== '') {
+            baseURL += encodeURIComponent('inauthor:' + this.state.bookAuthor);
+        }
+        if (this.state.bookTitle !== '') {
+            baseURL += (this.state.bookAuthor === '') ? encodeURIComponent('intitle:' + this.state.bookTitle) : encodeURIComponent('+intitle:' + this.state.bookTitle);
+        }
+ 
+        console.log('URL: >>> ' + baseURL);
+        fetch(baseURL)
+            .then((response) => response.json())
+            .then((responseData) => {
+                this.setState({ isLoading: false});
+                if (responseData.items) {
+ 
+                    this.props.navigator.push({
+                        title: 'Search Results',
+                        component: SearchResults,
+                        passProps: {books: responseData.items}
+                    });
+                } else {
+                    this.setState({ errorMessage: 'No results found'});
+                }
+            })
+            .catch(error =>
+                this.setState({
+                    isLoading: false,
+                    errorMessage: error
+                }))
+            .done();
+    }
+
 }
  
 module.exports = BookDetail;

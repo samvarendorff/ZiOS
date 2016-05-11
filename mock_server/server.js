@@ -46,10 +46,10 @@ app.post('/test', function(req, res) {
 function readConfig() {
   return {
     '/v1/books/fictionbooks': 'fictionbooks.json',
-    '/zosmf/restjobs/jobs': 'jobs.json'
+    '/zosmf/restjobs/jobs': 'jobs.json',
     // '/zosmf/restjobs/jobs/<jobname>/<jobid>': 'job.json'
-    // '/zosmf/restjobs/jobs/<jobname>/<jobid>/files': 'jobspoolfiles.json'
-    // '/zosmf/restjobs/jobs/<jobname>/<jobid>/files/<spoolfile>/records': 'jobspoolfilerecords.json'
+    '/zosmf/restjobs/jobs/TESTJOB2/JOB00023/files': 'jobspoolfiles.json',
+    '/zosmf/restjobs/jobs/TESTJOB2/JOB00023/files/1/records': 'jobspoolfilerecords.txt'
   };
 }
 

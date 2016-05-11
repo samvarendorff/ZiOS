@@ -1,17 +1,22 @@
 'use strict';
 
 var React = require('react-native');
-var Search = require('./Search');
 var Featured = require('./Featured');
 var Files = require('./Files');
 var Home = require('./Home');
-var Settings = require('./Settings');
 
 var {
+    StyleSheet,
     AppRegistry,
     TabBarIOS,
     Component
     } = React;
+    
+var styles = StyleSheet.create({
+    tabBar: {
+        backgroundColor: '#4178be'
+    }
+});
 
 class BookSearch extends Component {
 
@@ -24,7 +29,9 @@ class BookSearch extends Component {
 
     render() {
         return (
-                <TabBarIOS selectedTab={this.state.selectedTab}>
+                <TabBarIOS 
+                style={styles.tabBar}
+                selectedTab={this.state.selectedTab}>
                     <TabBarIOS.Item
                     selected={this.state.selectedTab === 'home'}
                     icon={{uri:'home', scale: 4}}
@@ -57,29 +64,6 @@ class BookSearch extends Component {
                         });
                     }}>
                     <Files/>
-                </TabBarIOS.Item>
-                <TabBarIOS.Item
-                    selected={this.state.selectedTab === 'search'}
-                    icon={{uri:'search', scale: 4}}
-                    title='Search'
-                    onPress={() => {
-                        this.setState({
-                            selectedTab: 'search'
-                        });
-                    }}>
-                    <Search/>
-                </TabBarIOS.Item>
-                
-                <TabBarIOS.Item
-                    selected={this.state.selectedTab === 'settings'}
-                    icon={{uri:'settings', scale: 4}}
-                    title='Settings'
-                    onPress={() => {
-                        this.setState({
-                            selectedTab: 'settings'
-                        });
-                    }}>
-                    <Settings/>
                 </TabBarIOS.Item>
             </TabBarIOS>
         );

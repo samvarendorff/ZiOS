@@ -1,7 +1,8 @@
 'use strict';
  
 var React = require('react-native');
-var SearchBooks = require('./SearchBooks');
+var JobFileList = require('./JobFileList');
+
  
 var {
     StyleSheet,
@@ -11,7 +12,10 @@ var {
  
 var styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        fontFamily: 'Helvetica Neue',
+        fontSize: 20,
+        fontWeight: "200"
     }
 });
  
@@ -21,9 +25,9 @@ class Files extends Component {
             <NavigatorIOS
                 style={styles.container}
                 initialRoute={{
-            title: 'View File Contents',
-            component: SearchBooks
-        }}/>            
+                    title: 'Job Spool Files',
+                    component: JobFileList
+            }}/>            
         );
     }
 }
